@@ -1,6 +1,6 @@
 module.exports = {
   presets: [['@babel/env', {
-    targets: { node: '10' },
+    targets: { node: '6.0' },
     include: ['transform-classes'],
   }]],
   plugins: [

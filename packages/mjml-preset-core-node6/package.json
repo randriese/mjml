@@ -1,0 +1,53 @@
+{
+  "name": "mjml-preset-core-node6",
+  "description": "mjml-preset-core",
+  "version": "4.9.1",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randriese/mjml.git",
+    "directory": "packages/mjml-preset-core-node6"
+  },
+  "license": "MIT",
+  "homepage": "https://mjml.io",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "babel src --out-dir lib --root-mode upward"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.10",
+    "mjml-accordion": "4.9.0",
+    "mjml-body-node6": "4.9.1",
+    "mjml-button-node6": "4.9.1",
+    "mjml-carousel-node6": "4.9.1",
+    "mjml-column-node6": "4.9.1",
+    "mjml-divider-node6": "4.9.1",
+    "mjml-group-node6": "4.9.1",
+    "mjml-head-attributes-node6": "4.9.1",
+    "mjml-head-breakpoint-node6": "4.9.1",
+    "mjml-head-font-node6": "4.9.1",
+    "mjml-head-html-attributes-node6": "4.9.1",
+    "mjml-head-node6": "4.9.1",
+    "mjml-head-preview-node6": "4.9.1",
+    "mjml-head-style-node6": "4.9.1",
+    "mjml-head-title-node6": "4.9.1",
+    "mjml-hero-node6": "4.9.1",
+    "mjml-image-node6": "4.9.1",
+    "mjml-navbar-node6": "4.9.1",
+    "mjml-raw-node6": "4.9.1",
+    "mjml-section-node6": "4.9.1",
+    "mjml-social-node6": "4.9.1",
+    "mjml-spacer-node6": "4.9.1",
+    "mjml-table-node6": "4.9.1",
+    "mjml-text-node6": "4.9.1",
+    "mjml-wrapper-node6": "4.9.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "rimraf": "^3.0.2"
+  },
+  "gitHead": "649a889db9f9fca21bb36ec6607a35b9700e61a9"
+}

@@ -24,7 +24,7 @@ export default function MJMLValidator(element, options = {}) {
   }
 
   if (!skipElements.includes(tagName)) {
-    for (const rule of Object.values(rulesCollection)) {
+    /*rulesCollection.map((rule) => {
       const ruleError = rule(element, {
         dependencies,
         skipElements,
@@ -35,7 +35,19 @@ export default function MJMLValidator(element, options = {}) {
       } else if (ruleError) {
         errors.push(ruleError)
       }
-    }
+    })*/
+    /*for (const rule of Object.values(rulesCollection)) {
+      const ruleError = rule(element, {
+        dependencies,
+        skipElements,
+        ...options,
+      })
+      if (Array.isArray(ruleError)) {
+        errors.push(...ruleError)
+      } else if (ruleError) {
+        errors.push(ruleError)
+      }
+    }*/
   }
 
   if (children && children.length > 0) {

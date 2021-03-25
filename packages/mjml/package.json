@@ -1,7 +1,7 @@
 {
   "name": "mjml-node6",
   "description": "MJML: the only framework that makes responsive-email easy - NODE6 version",
-  "version": "4.9.2",
+  "version": "4.9.0",
   "main": "lib/index.js",
   "bin": {
     "mjml": "bin/mjml"
@@ -24,11 +24,11 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "mjml-cli-node6": "4.9.2",
-    "mjml-core-node6": "4.9.2",
-    "mjml-migrate-node6": "4.9.2",
-    "mjml-preset-core-node6": "4.9.2",
-    "mjml-validator-node6": "4.9.2"
+    "mjml-cli-node6": "4.9.0",
+    "mjml-core-node6": "4.9.0",
+    "mjml-migrate-node6": "4.9.0",
+    "mjml-preset-core-node6": "4.9.0",
+    "mjml-validator-node6": "4.9.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -36,5 +36,6 @@
     "cheerio": "1.0.0-rc.3",
     "lodash": "^4.17.15",
     "rimraf": "^3.0.2"
-  }
+  },
+  "gitHead": "649a889db9f9fca21bb36ec6607a35b9700e61a9"
 }

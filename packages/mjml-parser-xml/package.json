@@ -1,7 +1,7 @@
 {
   "name": "mjml-parser-xml-node6",
   "description": "mjml-parser-xml",
-  "version": "4.9.0",
+  "version": "4.9.1",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -27,8 +27,8 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "chai": "^4.1.1",
-    "mjml-core-node6": "4.9.0",
-    "mjml-node6": "4.9.0",
+    "mjml-core-node6": "4.9.1",
+    "mjml-node6": "4.9.1",
     "rimraf": "^3.0.2"
   },
   "gitHead": "649a889db9f9fca21bb36ec6607a35b9700e61a9"

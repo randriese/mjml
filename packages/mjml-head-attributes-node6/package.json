@@ -1,7 +1,7 @@
 {
   "name": "mjml-head-attributes-node6",
   "description": "mjml-head-attributes",
-  "version": "4.9.2",
+  "version": "4.9.3",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -20,7 +20,7 @@
   "dependencies": {
     "@babel/runtime": "^7.13.10",
     "lodash": "^4.17.15",
-    "mjml-core-node6": "4.9.2"
+    "mjml-core-node6": "4.9.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",

@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "mjml-accordion": "4.9.0",
+    "mjml-accordion-node6": "4.9.2",
     "mjml-body-node6": "4.9.2",
     "mjml-button-node6": "4.9.2",
     "mjml-carousel-node6": "4.9.2",

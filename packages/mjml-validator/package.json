@@ -12,7 +12,6 @@
     "directory": "packages/mjml-validator"
   },
   "license": "MIT",
-
   "homepage": "https://mjml.io",
   "scripts": {
     "clean": "rimraf lib",

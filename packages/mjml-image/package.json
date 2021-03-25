@@ -12,7 +12,6 @@
     "directory": "packages/mjml-image"
   },
   "license": "MIT",
-
   "homepage": "https://mjml.io",
   "scripts": {
     "clean": "rimraf lib",

@@ -12,7 +12,6 @@
     "directory": "packages/mjml-preset-core"
   },
   "license": "MIT",
-
   "homepage": "https://mjml.io",
   "scripts": {
     "clean": "rimraf lib",
@@ -27,11 +26,11 @@
     "mjml-column-node6": "4.9.0",
     "mjml-divider-node6": "4.9.0",
     "mjml-group-node6": "4.9.0",
-    "mjml-head-node6": "4.9.0",
     "mjml-head-attributes-node6": "4.9.0",
     "mjml-head-breakpoint-node6": "4.9.0",
     "mjml-head-font-node6": "4.9.0",
     "mjml-head-html-attributes-node6": "4.9.0",
+    "mjml-head-node6": "4.9.0",
     "mjml-head-preview-node6": "4.9.0",
     "mjml-head-style-node6": "4.9.0",
     "mjml-head-title-node6": "4.9.0",

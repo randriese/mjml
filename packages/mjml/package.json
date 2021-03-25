@@ -1,7 +1,7 @@
 {
-  "name": "mjml",
-  "description": "MJML: the only framework that makes responsive-email easy",
-  "version": "4.9.1",
+  "name": "mjml-node6",
+  "description": "MJML: the only framework that makes responsive-email easy - NODE6 version",
+  "version": "4.9.0",
   "main": "lib/index.js",
   "bin": {
     "mjml": "bin/mjml"
@@ -12,13 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjmlio/mjml.git",
+    "url": "git+https://github.com/randriese/mjml.git",
     "directory": "packages/mjml"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mjmlio/mjml/issues"
-  },
   "homepage": "https://mjml.io",
   "scripts": {
     "clean": "rimraf lib",
@@ -27,11 +24,11 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.13.10",
-    "mjml-cli": "4.9.1",
-    "mjml-core": "4.9.1",
-    "mjml-migrate": "4.9.1",
-    "mjml-preset-core": "4.9.1",
-    "mjml-validator": "4.9.1"
+    "mjml-cli-node6": "4.9.0",
+    "mjml-core-node6": "4.9.0",
+    "mjml-migrate-node6": "4.9.0",
+    "mjml-preset-core-node6": "4.9.0",
+    "mjml-validator-node6": "4.9.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",

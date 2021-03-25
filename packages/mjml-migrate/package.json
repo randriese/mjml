@@ -1,6 +1,6 @@
 {
-  "name": "mjml-migrate",
-  "version": "4.9.1",
+  "name": "mjml-migrate-node6",
+  "version": "4.9.0",
   "description": "A tool to migrate a template from MJML 3 to MJML 4",
   "main": "lib/migrate.js",
   "bin": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjmlio/mjml.git",
+    "url": "git+https://github.com/randriese/mjml.git",
     "directory": "packages/mjml-migrate"
   },
   "author": "Nicolas Garnier",
@@ -28,8 +28,8 @@
     "@babel/runtime": "^7.13.10",
     "js-beautify": "^1.6.14",
     "lodash": "^4.17.15",
-    "mjml-core": "4.9.1",
-    "mjml-parser-xml": "4.9.1",
+    "mjml-core-node6": "4.9.0",
+    "mjml-parser-xml-node6": "4.9.0",
     "yargs": "^16.1.0"
   }
 }

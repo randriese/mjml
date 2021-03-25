@@ -1,7 +1,7 @@
 {
-  "name": "mjml-master",
+  "name": "mjml-node6",
   "private": true,
-  "version": "v4.9.1",
+  "version": "v4.9.0",
   "scripts": {
     "build:watch": "lerna run build --parallel -- -- -w",
     "build": "lerna run build --parallel --ignore mjml-browser",
